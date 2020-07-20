@@ -1,0 +1,213 @@
+/*
+COLOR PALETTE
+https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557 */
+:root {
+    --imperial-red: hsla(355, 78%, 56%, 1);
+    --honeydew: hsla(105, 55%, 96%, 1);
+    --powder-blue: hsla(182, 43%, 76%, 1);
+    --celadon-blue: hsla(203, 39%, 44%, 1);
+    --prussian-blue: hsla(215, 50%, 23%, 1);
+}
+
+/* Global Styles
+-----------------------------------*/
+
+/* Adding box model fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*** Change highlighting colour done by user */
+::selection {
+    background-color: var(--imperial-red);
+}
+
+/*** Change highlighting colour pre-set in html */
+mark {
+    background-color: var(--imperial-red);
+    color: var(--honeydew);
+}
+
+
+
+body {
+    color: var(--honeydew);
+    background: var(--prussian-blue);
+    margin: 0 0;
+    font: 1em 'Montserrat', sans-serif; /** Font for body */
+    line-height: 2;
+}
+
+
+
+a {
+   color: var(--honeydew);
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+h1 {
+    font: 2.5em 'Heebo', sans-serif; /* setting font */
+    color: var(--honeydew);
+}
+
+h2 {
+    margin: 0;
+    font: 2em 'Roboto', cursive; /* setting font */
+    line-height:1;
+    margin: 30px 0 ;
+
+}
+
+h3 {
+    font: italic 1.5em 'Roboto', cursive; /* setting font */
+}
+
+video {
+    width: 300px;
+}
+
+.video-wrap {
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.content-wrap {
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+
+/*** Disable so that some images cant be highlighted ***/
+img {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+/* Header
+-----------------------------------*/
+header{
+    background: var(--prussian-blue);
+}
+
+/* Logo */
+header img {
+    width: 400px;
+    display: block;
+    margin: 4% auto;
+}
+
+animate__fadeInDown
+
+/* Introduction
+-----------------------------------*/
+.intro {
+    background: var(--prussian-blue);
+    color: var(--honeydew);
+    height: 100%;
+    padding: 2% 0;
+}
+
+.intro .p1 {
+    font-size: 350%;
+     margin-top: 0;
+    line-height:1.1;
+}
+
+.intro .p2 {
+    font-size: 200%;
+    margin-top: 7.5%;
+    margin-bottom: 10%;
+    text-align: right;
+    padding: 5px 0;
+}
+
+
+
+/* Video
+-----------------------------------*/
+.video-p {
+    background: var(--celadon-blue);
+    height: 100%
+}
+
+
+.video-item {
+    display: block;
+    margin: 5% auto;
+}
+
+.video-item video {
+    width: 90%;
+    display: block;
+    outline: 0px;
+     display: block;
+    margin: 0 auto;
+}
+
+
+/* About TRAVERSE
+-----------------------------------*/
+.about-TRAVERSE {
+    background: var(--honeydew);
+    color: var(--prussian-blue);
+}
+
+
+
+/* About us
+-----------------------------------*/
+.about-us {
+    background: var(--prussian-blue);
+}
+
+.about-us img {
+    width: 150px;
+}
+
+.about-us .profiles {
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.about-us .profiles .profile_p {
+    float:left;
+    width:33%;
+}
+.about-us .profiles .profile_p .profile_descr {
+   float:left;
+   font-weight: bold;
+}
+
+.about-us .profiles .profile_p .profile_descr img{
+   width: 40px;
+   margin-left:80px;
+}
+
+
+
+
+
+/* Contact us
+-----------------------------------*/
+.contact-us {
+    background: var(--imperial-red);
+    color: var(--honeydew);
+    padding: 2.5% 0;
+}
+
+.contact-us ::selection {
+    background-color: var(--celadon-blue);
+}
+.contact-us a {
+    margin-right: 5%;
+}
