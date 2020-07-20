@@ -146,8 +146,7 @@ animate__fadeInDown
     margin: 5% auto;
 }
 
-.video-item video {
-    width: 90%;
+.video-item iframe {
     display: block;
     outline: 0px;
      display: block;
