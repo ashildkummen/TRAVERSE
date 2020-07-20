@@ -103,7 +103,7 @@ header{
 header img {
     width: 400px;
     display: block;
-    margin: 4% auto;
+    margin: 2% auto;
 }
 
 animate__fadeInDown
@@ -113,13 +113,14 @@ animate__fadeInDown
 .intro {
     background: var(--prussian-blue);
     color: var(--honeydew);
-    height: 100%;
+    height: 100%
     padding: 2% 0;
+
 }
 
 .intro .p1 {
     font-size: 350%;
-     margin-top: 0;
+    margin-top: 0;
     line-height:1.1;
 }
 
@@ -131,12 +132,36 @@ animate__fadeInDown
     padding: 5px 0;
 }
 
+/* SHAPES */
+.shapes #circle {
+    position: absolute;
+    transform: translate(100%, 25%);
+    width: 80px;
+}
+
+.shapes #triangle {
+    position: absolute;
+    transform: translate(1200%, -40%);
+    width: 100px;
+}
+
+.shapes #square {
+    position: absolute;
+    transform: translate(1100%, 300%);
+    width: 100px;
+}
+
+.shapes #hexagon {
+    position: absolute;
+    transform: translate(55%, 189%);
+    width: 200px;
+}
 
 
 /* Video
 -----------------------------------*/
 .video-p {
-    background: var(--celadon-blue);
+    background-image: linear-gradient(to top, var(--celadon-blue), var(--prussian-blue));
     height: 100%
 }
 
@@ -163,7 +188,7 @@ animate__fadeInDown
 
 
 
-/* About us
+/* The Team
 -----------------------------------*/
 .about-us {
     background: var(--prussian-blue);
